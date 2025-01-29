@@ -1,9 +1,12 @@
-Identigying vulnerabilities using Metasploit - Introduction
+Identigying vulnerabilities using Metasploit - PROJECT OVERVIEW
 
-PROJECT OVERVIEW
-Problem statement – How can Metasploit be used efficiently to identify and exploit system and network vulnerabilities?
-Objective – The primary objective of this assessment was to identify potential vulnerabilities that could be exploited by malicious hackers and to provide recommendations for rectifying these weaknesses to enhance the overall security posture through penetration testing.
-Proposed solution – 
+PROBLEM STATEMENT –
+How can Metasploit be used efficiently to identify and exploit system and network vulnerabilities?
+
+OBJECTIVE –
+The primary objective of this assessment was to identify potential vulnerabilities that could be exploited by malicious hackers and to provide recommendations for rectifying these weaknesses to enhance the overall security posture through penetration testing.
+
+PROPOSED SOLUTION – 
 1. Network Scanning with Nmap: Discover how to scan networks for vulnerable services and open ports. This stage allows for the development of a comprehensive network map to identify potential vulnerabilities.
 2. Vulnerability Research: Once vulnerabilities are identified, we will investigate their effect and potential exploits.
 3. Active Reconnaissance: To obtain a deeper understanding of the network, employ active reconnaissance techniques to gather precise information on the target systems.
