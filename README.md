@@ -16,6 +16,7 @@ PROPOSED SOLUTION –
 7. Reporting and documentation: Prepare detailed penetration testing reports that include identified vulnerabilities, how they were exploited, and mitigation methods.
 
 TOOLS USED -
+
 Virtual box - VirtualBox is a cross-platform virtualization tool designed for AMD or Intel computing architectures. It supports all major operating systems, including Windows, Linux, and macOS. It enables users to operate desktops, servers, and operating systems as virtual machines. VirtualBox can enhance the technological capabilities of any compatible computer by allowing it to run numerous operating systems in independent virtual machines at the same time. It can be used for a variety of applications, including developing software for multiple platforms and establishing virtual networks for software testing.
 
 Kali Linux - Kali Linux is an open-source Linux distribution for advanced security auditing and penetration testing. It offers hundreds of tools, configurations, and scripts with industry-specific modifications, allowing users to focus on tasks like computer forensics and vulnerability detection. It is tailored for experienced penetration testers.
