@@ -1,0 +1,31 @@
+TECHNOLOGICAL REQUIREMENTS FOR THE PROJECT
+
+Setting up a home lab:
+
+a.	Download and install VirtualBox
+b.	Download and install Kali Linux VM - To set up Kali Linux, create a new VirtualBox, name it "Kali Linux", select the type and version, allocate memory, and create a virtual hard disk. Start the VM, load the Kali Linux ISO, follow installation prompts.
+c.	Download and install Metasploitable VM - To set up Metasploitable2, create a new VirtualBox, name it "Metasploitable2", select type as Linux and version as Ubuntu (64-bit), allocate RAM, create a virtual hard disk, configure the network adapter, and start the VM.
+
+DETAILED WORKING OF THE PROJECT 
+
+STEP 1: Use Nmap to scan for vulnerable services
+In this step, we look for vulnerable services on Aerotech device by scanning for outdated ports that will be used for initial exploitation.
+ 
+STEP 2: Vulnerability research with Google Dorking
+Now that we have identified the ports and services on Aerotech’s device, we will use vulnerability databases to investigate potential paths for exploitation.
+
+STEP 3: Configuring the Metasploit console
+We enter the msfconsole command into the Linux terminal to enter the Metasploit console.
+
+STEP 4: Loading a Metasploit module
+Here, we use the search command to search for the service version that we identified in the previous steps. Once we find the version, we use the use command to load that module.
+
+STEP 5: Configuring the loaded module
+In this step, we use the show options command to display and navigate through the current configurations of our Metasploit payload. We assess the required fields and might need to change or update some fields explicitly to successfully launch an exploit. To do this we use the set command.
+ 
+STEP 6: Implementing the exploit
+Here we use the run or exploit command to launch the exploit.
+
+STEP 7: Establishing persistence
+It is at this step that we add a backdoor account so that we can access Aerotech’s system more easily in the future. To do so, we use the command adduser. 
+
